@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+
+
+
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><TableLayout android:id="@+id/TableLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content"><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/namerow"><TextView android:id="@+id/NameText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name:" android:layout_gravity="left|center_vertical"></TextView>
+<EditText android:layout_height="wrap_content" android:id="@+id/POINameEdit" android:layout_weight="1" android:layout_width="0dp"></EditText>
+</TableRow><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/namerow"><TextView android:id="@+id/NameText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Text:" android:layout_gravity="left|center_vertical"></TextView>
+<EditText android:layout_height="wrap_content" android:id="@+id/POITextEdit" android:layout_weight="1" android:layout_width="0dp"></EditText>
+</TableRow><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/latrow"><TextView android:id="@+id/LatText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lat:" android:layout_gravity="left|center_vertical"></TextView>
+<EditText android:layout_weight="1" android:id="@+id/LatEdit" android:layout_width="0dp" android:layout_height="wrap_content" android:inputType="number"></EditText>
+</TableRow><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/lngrow"><TextView android:id="@+id/LngText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lng:" android:layout_gravity="left|center_vertical"></TextView>
+<EditText android:layout_weight="1" android:id="@+id/LngEdit" android:layout_width="0dp" android:layout_height="wrap_content" android:inputType="number"></EditText>
+</TableRow>
+</TableLayout>
+
+
+
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ButtonRow"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="POI Hinzufügen" android:id="@+id/AddButton"></Button>
+</TableRow>
+
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/CancelRow"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Abbrechen" android:id="@+id/CancelButton"></Button>
+</TableRow>
+
+</TableLayout>
+
+</ScrollView>

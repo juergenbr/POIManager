@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Add POI" android:id="@+id/add"></item>
+<item android:title="Delete" android:id="@+id/delete"></item>
+<item android:id="@+id/list" android:title="Show List"></item>
+<item android:id="@+id/gps" android:title="GPS OFF" android:icon="@drawable/gps_off"></item>
+</menu>
